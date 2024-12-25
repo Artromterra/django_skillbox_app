@@ -20,7 +20,7 @@ urlpatterns = [
     path(
         "login/",
         LoginView.as_view(
-            template_name="myauth/login.html",
+            template_name="myauth/templates/myauth/login.html",
             redirect_authenticated_user=True,
         ),
         name="login",
